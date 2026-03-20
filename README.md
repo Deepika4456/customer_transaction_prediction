@@ -2,28 +2,41 @@
 A machine learning project that predicts customer transaction behavior in the banking sector using data preprocessing, EDA, and models such as Logistic Regression and LightGBM.
 # 📊 Customer Transaction Prediction in Banking
 
+<p align="center">
+  <b>Machine Learning Project to Predict Customer Transactions</b><br>
+  Using Logistic Regression & LightGBM 🚀
+</p>
+
+---
+
 ## 🚀 Overview
 
-This project aims to predict whether a customer will make a transaction using machine learning techniques. It helps banks improve marketing strategies, customer targeting, and decision-making.
+This project predicts whether a customer will make a transaction based on historical banking data. It helps financial institutions improve customer targeting, marketing strategies, and decision-making.
+
+---
+
+## 🎯 Problem Statement
+
+Banks need to identify potential customers who are likely to perform transactions. This project builds a classification model to solve this problem efficiently.
 
 ---
 
 ## 📁 Dataset
 
-The dataset used is **Santander Customer Transaction Prediction** from Kaggle.
+The dataset used is **Santander Customer Transaction Prediction**.
 
-* `train.csv` → Contains features + target variable
-* `test.csv` → Contains features only for prediction
+⚠️ Due to file size limitations, the dataset is not included in this repository.
+
+👉 Download from Kaggle:
+https://www.kaggle.com/competitions/santander-customer-transaction-prediction/data
 
 ---
 
-## 🧠 Technologies Used
+## 🧠 Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+* Python 🐍
+* Pandas & NumPy
+* Matplotlib & Seaborn
 * Scikit-learn
 * LightGBM
 
@@ -31,27 +44,23 @@ The dataset used is **Santander Customer Transaction Prediction** from Kaggle.
 
 ## ⚙️ Workflow
 
-### 1. Data Loading
+### 🔹 Data Preprocessing
 
-* Load dataset using Pandas
+* Removed unnecessary columns
+* Feature scaling using StandardScaler
+* Handled imbalanced data using SMOTE
 
-### 2. Data Preprocessing
+### 🔹 Exploratory Data Analysis (EDA)
 
-* Remove unnecessary columns
-* Feature scaling
-* Handle imbalanced data using SMOTE
+* Analyzed target distribution
+* Identified patterns and trends
 
-### 3. Exploratory Data Analysis (EDA)
+### 🔹 Model Building
 
-* Visualize target distribution
-* Understand feature behavior
+* Logistic Regression (baseline model)
+* LightGBM (advanced model)
 
-### 4. Model Building
-
-* Logistic Regression
-* LightGBM
-
-### 5. Model Evaluation
+### 🔹 Model Evaluation
 
 * Accuracy Score
 * Confusion Matrix
@@ -61,8 +70,10 @@ The dataset used is **Santander Customer Transaction Prediction** from Kaggle.
 
 ## 📊 Results
 
-* Logistic Regression provides a good baseline
-* LightGBM improves performance and accuracy
+| Model               | Performance                   |
+| ------------------- | ----------------------------- |
+| Logistic Regression | Good baseline accuracy        |
+| LightGBM            | Better accuracy & performance |
 
 ---
 
@@ -75,24 +86,26 @@ The model predicts:
 
 ---
 
+## 📂 Project Structure
+
+```bash
+Customer-Transaction-Prediction/
+│── notebook.ipynb
+│── README.md
+```
+
+---
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-
-```
+```bash
+# Clone repository
 git clone https://github.com/your-username/customer-transaction-prediction.git
-```
 
-2. Install dependencies:
-
-```
+# Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn lightgbm
-```
 
-3. Run the notebook:
-
-```
+# Run notebook
 jupyter notebook
 ```
 
@@ -102,15 +115,10 @@ jupyter notebook
 
 * Hyperparameter tuning
 * Feature engineering
-* Try advanced models like XGBoost
+* Try XGBoost & Random Forest
 * Deploy using Streamlit
 
 ---
-## 📁 Dataset
-The dataset is not included due to size limitations.
-
-You can download it from Kaggle:
-https://www.kaggle.com/competitions/santander-customer-transaction-prediction/data
 
 ## 🙌 Acknowledgement
 
@@ -120,4 +128,9 @@ Dataset provided by Kaggle.
 
 ## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub!
+
+---
+
+## 👩‍💻 Author
+s.deepika
