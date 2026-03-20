@@ -1,135 +1,108 @@
-# customer_transaction_prediction
-A machine learning project that predicts customer transaction behavior in the banking sector using data preprocessing, EDA, and models such as Logistic Regression and LightGBM.
-# 📊 Customer Transaction Prediction in Banking
+# 💳 Customer Transaction Prediction using Machine Learning
 
-<p align="center">
-  <b>Machine Learning Project to Predict Customer Transactions</b><br>
-  Using Logistic Regression & LightGBM 🚀
-</p>
+## 📌 Project Overview
+
+This project aims to predict whether a customer will make a transaction using machine learning techniques.
+The dataset is from the Santander Kaggle competition and contains **200 anonymized features** representing customer behavior.
 
 ---
 
-## 🚀 Overview
+## 📊 Dataset Description
 
-This project predicts whether a customer will make a transaction based on historical banking data. It helps financial institutions improve customer targeting, marketing strategies, and decision-making.
+* **Train Dataset**: Includes features (`var_0` to `var_199`) and target variable
+* **Test Dataset**: Includes only features (used for prediction)
 
----
+### 🎯 Target Variable:
 
-## 🎯 Problem Statement
-
-Banks need to identify potential customers who are likely to perform transactions. This project builds a classification model to solve this problem efficiently.
-
----
-## 📊 Dataset
-- Train dataset: Contains features and target variable
-- Test dataset: Contains only features (no target)
-- The dataset used is **Santander Customer Transaction Prediction**.
-
-⚠️ Due to file size limitations, the dataset is not included in this repository.
-
-👉 Download from Kaggle:
-https://www.kaggle.com/competitions/santander-customer-transaction-prediction/data
-
-
-## 📈 Results
-- Accuracy:0.785675
-- ROC-AUC Score: 0.8580798936379652
-
-
-## 🧠 Tech Stack
-
-* Python 🐍
-* Pandas & NumPy
-* Matplotlib & Seaborn
-* Scikit-learn
-* LightGBM
+* `0` → No transaction
+* `1` → Transaction
 
 ---
 
-## ⚙️ Workflow
+## ⚙️ Project Workflow
 
-### 🔹 Data Preprocessing
+1. **Data Loading**
+   Importing train and test datasets
 
-* Removed unnecessary columns
-* Feature scaling using StandardScaler
-* Handled imbalanced data using SMOTE
+2. **Data Preprocessing**
+   Handling missing values and feature scaling
 
-### 🔹 Exploratory Data Analysis (EDA)
+3. **Exploratory Data Analysis (EDA)**
+   Understanding feature distribution and patterns
 
-* Analyzed target distribution
-* Identified patterns and trends
+4. **Feature Selection**
+   Identifying important variables
 
-### 🔹 Model Building
+5. **Model Training**
+   Training classification models
 
-* Logistic Regression (baseline model)
-* LightGBM (advanced model)
-
-### 🔹 Model Evaluation
-
-* Accuracy Score
-* Confusion Matrix
-* ROC-AUC Score
+6. **Prediction**
+   Predicting customer transactions on test data
 
 ---
 
-## 🎯 Output
+## 🤖 Models Used
 
-Accuracy: 0.89
-Confusion Matrix:
-[[450  30]
- [ 50 470]]
- <img width="1097" height="724" alt="Screenshot 2026-03-20 145848" src="https://github.com/user-attachments/assets/c9af715d-7949-49d4-80cb-cef90900ca71" />
-<img width="979" height="903" alt="Screenshot 2026-03-20 145920" src="https://github.com/user-attachments/assets/acfde8c0-e5e3-4dd0-974a-901207df058c" />
-<img width="1437" height="850" alt="Screenshot 2026-03-20 150533" src="https://github.com/user-attachments/assets/3a8c8991-c682-4673-8a88-b4ff8fa89856" />
+* **Logistic Regression**
+  → Simple and interpretable baseline model
 
- 
+* **Random Forest**
+  → Handles non-linearity and improves accuracy
+
 ---
 
-## 📂 Project Structure
+## 📈 Results & Performance
 
-```bash
-Customer-Transaction-Prediction/
+* **Accuracy**: 0.785675
+* **ROC-AUC Score**: 0.8580798936379652
+
+📌 The model demonstrates strong ability to distinguish between customers who will and will not make transactions.
+
+---
+
+## 💼 Business Use Case
+
+This model can help banks:
+
+* Identify potential customers likely to make transactions
+* Improve targeted marketing strategies
+* Enhance customer engagement
+
+---
+
+## 📁 Project Structure
+
+```
+customer_transaction_prediction/
 │── notebook.ipynb
 │── README.md
 ```
 
 ---
 
-## ▶️ How to Run
+## 📸 Output Visualization
 
-```bash
-# Clone repository
-git clone https://github.com/your-username/customer-transaction-prediction.git
+<img width="1097" height="724" alt="Screenshot 2026-03-20 145848" src="https://github.com/user-attachments/assets/c93415e3-fd0e-4a4a-9384-748ff69f920d" />
+<img width="979" height="903" alt="Screenshot 2026-03-20 145920" src="https://github.com/user-attachments/assets/07d2c40f-030d-4878-9e48-f7955b2322aa" />
+<img width="1437" height="850" alt="Screenshot 2026-03-20 150533" src="https://github.com/user-attachments/assets/22971b3b-1b8b-41e6-894a-cb1bf6197b18" />
 
-# Install dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn lightgbm
-
-# Run notebook
-jupyter notebook
-```
 
 ---
 
-## 📌 Future Improvements
+## 🚀 Future Improvements
 
 * Hyperparameter tuning
-* Feature engineering
-* Try XGBoost & Random Forest
-* Deploy using Streamlit
+* Use advanced models like XGBoost
+* Feature engineering for better accuracy
 
 ---
 
-## 🙌 Acknowledgement
+## ✅ Conclusion
 
-Dataset provided by Kaggle.
-
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub!
+This project successfully applies machine learning techniques to solve a real-world banking problem and demonstrates strong predictive performance.
 
 ---
+
 
 ## 👩‍💻 Author
 s.deepika
