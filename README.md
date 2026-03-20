@@ -20,17 +20,21 @@ This project predicts whether a customer will make a transaction based on histor
 Banks need to identify potential customers who are likely to perform transactions. This project builds a classification model to solve this problem efficiently.
 
 ---
-
-## 📁 Dataset
-
-The dataset used is **Santander Customer Transaction Prediction**.
+## 📊 Dataset
+- Train dataset: Contains features and target variable
+- Test dataset: Contains only features (no target)
+- The dataset used is **Santander Customer Transaction Prediction**.
 
 ⚠️ Due to file size limitations, the dataset is not included in this repository.
 
 👉 Download from Kaggle:
 https://www.kaggle.com/competitions/santander-customer-transaction-prediction/data
 
----
+
+## 📈 Results
+- Accuracy:0.785675
+- ROC-AUC Score: 0.8580798936379652
+
 
 ## 🧠 Tech Stack
 
