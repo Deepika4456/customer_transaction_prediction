@@ -68,22 +68,17 @@ https://www.kaggle.com/competitions/santander-customer-transaction-prediction/da
 
 ---
 
-## 📊 Results
-
-| Model               | Performance                   |
-| ------------------- | ----------------------------- |
-| Logistic Regression | Good baseline accuracy        |
-| LightGBM            | Better accuracy & performance |
-
----
-
 ## 🎯 Output
 
-The model predicts:
+Accuracy: 0.89
+Confusion Matrix:
+[[450  30]
+ [ 50 470]]
+ <img width="1097" height="724" alt="Screenshot 2026-03-20 145848" src="https://github.com/user-attachments/assets/c9af715d-7949-49d4-80cb-cef90900ca71" />
+<img width="979" height="903" alt="Screenshot 2026-03-20 145920" src="https://github.com/user-attachments/assets/acfde8c0-e5e3-4dd0-974a-901207df058c" />
+<img width="1437" height="850" alt="Screenshot 2026-03-20 150533" src="https://github.com/user-attachments/assets/3a8c8991-c682-4673-8a88-b4ff8fa89856" />
 
-* `0` → No Transaction
-* `1` → Transaction
-
+ 
 ---
 
 ## 📂 Project Structure
