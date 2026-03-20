@@ -54,6 +54,7 @@ The dataset is from the Santander Kaggle competition and contains **200 anonymiz
 ## 📈 Results & Performance
 
 * **Accuracy**: 0.785675
+* The model achieved 0.785675 accuracy, indicating good generalization on unseen data.
 * **ROC-AUC Score**: 0.8580798936379652
 
 📌 The model demonstrates strong ability to distinguish between customers who will and will not make transactions.
@@ -91,16 +92,20 @@ customer_transaction_prediction/
 
 ## 🚀 Future Improvements
 
-* Hyperparameter tuning
-* Use advanced models like XGBoost
-* Feature engineering for better accuracy
+Hyperparameter tuning (GridSearch / RandomSearch)
+
+Advanced models (XGBoost, LightGBM)
+
+Deep learning approaches
+
+Deployment using Streamlit
 
 ---
 
 ## ✅ Conclusion
 
-This project successfully applies machine learning techniques to solve a real-world banking problem and demonstrates strong predictive performance.
-
+This project demonstrates the application of machine learning techniques to solve a real-world banking problem.
+The model achieves strong predictive performance and can be further enhanced for production-level deployment.
 ---
 
 
