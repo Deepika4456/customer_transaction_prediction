@@ -94,7 +94,7 @@ customer_transaction_prediction/
 
 Hyperparameter tuning (GridSearch / RandomSearch)
 
-Advanced models (XGBoost, LightGBM)
+Advanced model (XGBoost)
 
 Deep learning approaches
 
