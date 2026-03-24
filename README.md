@@ -11,6 +11,16 @@ The dataset is from the Santander Kaggle competition and contains **200 anonymiz
 
 * **Train Dataset**: Includes features (`var_0` to `var_199`) and target variable
 * **Test Dataset**: Includes only features (used for prediction)
+The dataset consists of customer-related features and a target variable indicating whether a transaction occurred.
+It contains multiple numerical features representing anonymized customer information.
+
+---
+
+ ## Objective
+To analyze customer transaction data
+To handle imbalanced datasets effectively
+To build and evaluate classification models
+To identify the best-performing model for prediction
 
 ###  Target Variable:
 
@@ -111,4 +121,4 @@ The model achieves strong predictive performance and can be further enhanced for
 
 
 ##  Author
-s.deepika
+surisetty deepika
