@@ -1,25 +1,25 @@
-# 💳 Customer Transaction Prediction using Machine Learning
+#  Customer Transaction Prediction using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to predict whether a customer will make a transaction using machine learning techniques.
 The dataset is from the Santander Kaggle competition and contains **200 anonymized features** representing customer behavior.
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 * **Train Dataset**: Includes features (`var_0` to `var_199`) and target variable
 * **Test Dataset**: Includes only features (used for prediction)
 
-### 🎯 Target Variable:
+###  Target Variable:
 
 * `0` → No transaction
 * `1` → Transaction
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
 1. **Data Loading**
    Importing train and test datasets
@@ -41,7 +41,7 @@ The dataset is from the Santander Kaggle competition and contains **200 anonymiz
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 * **Logistic Regression**
   → Simple and interpretable baseline model
@@ -51,7 +51,7 @@ The dataset is from the Santander Kaggle competition and contains **200 anonymiz
 
 ---
 
-## 📈 Results & Performance
+##  Results & Performance
 
 * **Accuracy**: 0.785675
 * The model achieved 0.785675 accuracy, indicating good generalization on unseen data.
@@ -61,7 +61,7 @@ The dataset is from the Santander Kaggle competition and contains **200 anonymiz
 
 ---
 
-## 💼 Business Use Case
+##  Business Use Case
 
 This model can help banks:
 
@@ -71,7 +71,7 @@ This model can help banks:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 customer_transaction_prediction/
@@ -81,7 +81,7 @@ customer_transaction_prediction/
 
 ---
 
-## 📸 Output Visualization
+##  Output Visualization
 
 <img width="1097" height="724" alt="Screenshot 2026-03-20 145848" src="https://github.com/user-attachments/assets/c93415e3-fd0e-4a4a-9384-748ff69f920d" />
 <img width="979" height="903" alt="Screenshot 2026-03-20 145920" src="https://github.com/user-attachments/assets/07d2c40f-030d-4878-9e48-f7955b2322aa" />
@@ -90,7 +90,7 @@ customer_transaction_prediction/
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 Hyperparameter tuning (GridSearch / RandomSearch)
 
@@ -102,12 +102,12 @@ Deployment using Streamlit
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates the application of machine learning techniques to solve a real-world banking problem.
 The model achieves strong predictive performance and can be further enhanced for production-level deployment.
 ---
 
 
-## 👩‍💻 Author
+##  Author
 s.deepika
