@@ -75,7 +75,8 @@ This model can help banks:
 
 ```
 customer_transaction_prediction/
-│── notebook.ipynb
+│── customer_transaction_prediction.ipynb
+│── requirements.txt
 │── README.md
 ```
 
